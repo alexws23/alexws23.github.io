@@ -1,11 +1,30 @@
 ---
-title: "alexws23.github.io"
+title: "Alex Smilor"
+image: imgs/AWS-7548.jpg
+toc: false
+about: 
+ template: jolla
+ image-shape: round
+ image-width: 17em
+ links:
+   - text: LinkedIN
+     href: https://www.linkedin.com/in/alexsmilor/
+   - text: GitHub
+     href: https://github.com/alexws23
+   - text: eBird
+     href: https://ebird.org/profile/MTgwNTI1Mg/world
+   - text: iNaturalist
+     href: https://www.inaturalist.org/people/6646139
+   - text: Photo Gallery
+     href: https://alexsmilor.com/
+   - text: Email
+     href: mailto::alexws23@verizon.net
+lightbox:
+  effect: fade
 ---
 
-This is a Quarto website.
+Hi, my name is Alex Smilor.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am studying Ecosystem Science at Colorado State University, with a particular interest in avian and forest ecology as that relates to climate and anthropogenic change. I have worked extensively with field methods used in bird and forest monitoring research, ranging from point count surveys of passerines in New Mexico to extensive forest inventory surveys for climate adaptation research projects in Colorado. Additionally, while studying abroad in Ushuaia, Argentina I conducted an independent research project studying how climate change and warming spring temperatures affected the breeding phenology of a small Gentoo Penguin colony.
 
-```{r}
-1 + 1
-```
+Beyond this, I love to spend my time outdoors, especially hiking, skiing, biking, and camping. I also spend an arguably excessive amount of time birdwatching in areas around the country and have slowly accumulated a life list exceeding 450 species in the US. I also love to take my many opportunities outside to take images of all of the nature around me, especially birds. Lastly, I participate in a number of citizen science initiatives, including eBird, Christmas Bird Counts, and iNaturalist.

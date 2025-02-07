@@ -9,12 +9,16 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - CV.qmd
+      - Projects.qmd
+      - Gallery.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 

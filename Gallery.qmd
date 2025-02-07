@@ -1,0 +1,30 @@
+---
+title: "Gallery"
+format: html
+page-layout: full
+lightbox: auto
+echo: false
+---
+```{r}
+descrip_exif <- function(x){
+  exif <- exifr::read_exif(
+    path = x, 
+    tags = c("Make" ,"Model", "FocalLength", "FNumber", "ExposureTime", 
+             "ISO", "LensModel", 
+             "BatteryLevel", "SelfTimer", "DateTimeOriginal", "OffsetTime")
+  )
+  
+  glue::glue("{exif$Model} Lens: {exif$LensModel} <br>
+             {exif$FocalLength}mm f/{exif$FNumber} 1/{round(1/exif$ExposureTime)} ISO {exif$ISO} <br>
+             {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
+}
+```
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![A Short-eared Owl I photographed in Argentina](imgs/AWS-4886-Enhanced-NR.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-4886-Enhanced-NR.jpg")`" fig-alt="A photograph of a Short-eared owl in flight."}
+
+![Sunrise in Rocky Mountain National Park](imgs/AWS-2023.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-2023.jpg")`" fig-alt="A mountain landscape with cloud above."}
+
+![A Magellanic Penguin on the Beach](imgs/AWS-1850-Enhanced-NR.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-1850-Enhanced-NR.jpg")`" fig-alt="A black and white penguin on a beach"}
+
+:::
