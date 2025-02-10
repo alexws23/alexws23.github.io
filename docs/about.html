@@ -44,6 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -155,7 +158,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This site was created for my Quantitative Analysis Class, ESS-330, at CSU using Quarto and serves as an introduction to who I am and some of the skills I have acquired through my professional, academic, and personal life.</p>
-<p><img src="imgs/vincinguerra.JPG" class="img-fluid" alt="Hiking Vinciguerra Glacier near Ushuaia, Argentina">{.lightbox group=“my-gallery” description=“<code>r descrip_exif("imgs/vincinguerra.JPG")</code>” fig-alt=“A selfie with a glacier in the background”}</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="imgs/vincinguerra.JPG" class="lightbox" data-gallery="my-gallery" title="Hiking Vinciguerra Glacier near Ushuaia, Argentina"><img src="imgs/vincinguerra.JPG" class="img-fluid figure-img" alt="A selfie with a glacier in the background"></a></p>
+<figcaption>Hiking Vinciguerra Glacier near Ushuaia, Argentina</figcaption>
+</figure>
+</div>
 
 
 
@@ -738,6 +746,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

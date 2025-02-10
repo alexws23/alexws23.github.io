@@ -6,4 +6,4 @@ echo: false
 
 This site was created for my Quantitative Analysis Class, ESS-330, at CSU using Quarto and serves as an introduction to who I am and some of the skills I have acquired through my professional, academic, and personal life.
 
-![Hiking Vinciguerra Glacier near Ushuaia, Argentina](imgs/vincinguerra.JPG){.lightbox group="my-gallery" description="`r descrip_exif("imgs/vincinguerra.JPG")`" fig-alt="A selfie with a glacier in the background"}
+![Hiking Vinciguerra Glacier near Ushuaia, Argentina](imgs/vincinguerra.JPG){.lightbox group="my-gallery"  fig-alt="A selfie with a glacier in the background"}
