@@ -3,20 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "alexws23.github.io"
+  title: "Alex Smilor"
+  favicon: imgs/Smilor_Favicon.png
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - CV.qmd
       - Projects.qmd
       - Gallery.qmd
+  page-footer:
+    background: light
+    left: Copyright 2025, Alex Smilor
+    right: This website was built with [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/samanthacsik/samanthacsik.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: lightmode.scss
+      dark: darkmode.scss
     toc: true
     page-layout: full
 

@@ -5,6 +5,7 @@ page-layout: full
 lightbox: auto
 echo: false
 ---
+
 ```{r}
 descrip_exif <- function(x){
   exif <- exifr::read_exif(
@@ -19,12 +20,24 @@ descrip_exif <- function(x){
              {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
 }
 ```
-
+## Argentina
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
 ![A Short-eared Owl I photographed in Argentina](imgs/AWS-4886-Enhanced-NR.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-4886-Enhanced-NR.jpg")`" fig-alt="A photograph of a Short-eared owl in flight."}
 
-![Sunrise in Rocky Mountain National Park](imgs/AWS-2023.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-2023.jpg")`" fig-alt="A mountain landscape with cloud above."}
-
 ![A Magellanic Penguin on the Beach](imgs/AWS-1850-Enhanced-NR.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-1850-Enhanced-NR.jpg")`" fig-alt="A black and white penguin on a beach"}
 
+![The Autumnal Landscapes of Tierra del Fuego](imgs/AWS-1840-low.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-1840-low.jpg")`" fig-alt="A tree with orange leave with mountains in the background"}
+
+![A Yellow-bridled Finch foraging](imgs/AWS-2384.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-2384.jpg")`" fig-alt="A yellow and gray finch eating seeds"}
+:::
+
+## Colorado
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![Sunrise in Rocky Mountain National Park](imgs/AWS-2023.jpg){.lightbox group="colorado" description="`r descrip_exif("imgs/AWS-2023.jpg")`" fig-alt="A mountain landscape with cloud above."}
+
+![A Red Fox curled up into a ball](imgs/AWS-1782-Enhanced-NR.jpg){.lightbox group="colorado" description="`r descrip_exif("imgs/AWS-1782-Enhanced-NR.jpg")`" fig-alt="A red fox lying on the ground"}
+
+![A colorful Colorado sunset in State Forest State Park](imgs/AWS-0191-HDR.jpg){.lightbox group="colorado" description="`r descrip_exif("imgs/AWS-0191-HDR.jpg")`" fig-alt="A mountainous and forested landscape with colorful clouds reflected in a lake"}
+
+![A magestic elk heading to join the rut](imgs/AWS-4373-Enhanced-NR.jpg){.lightbox group="colorado" description="`r descrip_exif("imgs/AWS-4373-Enhanced-NR.jpg")`" fig-alt="A large buck elk with a large set of antlers in front of a forested landscape"}
 :::

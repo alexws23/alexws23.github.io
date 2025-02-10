@@ -2,9 +2,11 @@
 title: "Projects"
 format: html
 ---
+
 ### Gentoo Penguin Research Project
 
 While studying abroad, I designed and carried out an independent research project examining the effects of climate on the breeding phenology and demography of Gentoo Penguins. You can view and download my research paper below.
+
 ```{=html}
 <object data="media/Smilor_Alex_InformeFinal.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
     <p>It appears you don't have a PDF plugin for this browser.
