@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+This site was created for my Quantitative Analysis Class, ESS-330, at CSU using Quarto and serves as an introduction to who I am and some of the skills I have acquired through my professional, academic, and personal life.
