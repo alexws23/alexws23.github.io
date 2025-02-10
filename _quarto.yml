@@ -13,6 +13,9 @@ website:
       - CV.qmd
       - Projects.qmd
       - Gallery.qmd
+      - icon: github
+        href: https://github.com/alexws23/alexws23.github.io
+        target: _blank
   page-footer:
     background: light
     left: Copyright 2025, Alex Smilor
