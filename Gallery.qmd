@@ -2,7 +2,11 @@
 title: "Gallery"
 format: html
 page-layout: full
-lightbox: auto
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
 echo: false
 ---
 
