@@ -13,6 +13,7 @@ website:
       - CV.qmd
       - Projects.qmd
       - Gallery.qmd
+      - Publications.qmd
       - icon: github
         href: https://github.com/alexws23/alexws23.github.io
         target: _blank

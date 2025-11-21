@@ -2,8 +2,10 @@
 title: "Projects"
 format: html
 ---
+## Current Projects
 
-### Gentoo Penguin Research Project
+## Past Projects
+### Gentoo Penguin Research
 
 While studying abroad, I designed and carried out an independent research project examining the effects of climate on the breeding phenology and demography of Gentoo Penguins. You can view and download my research paper below.
 

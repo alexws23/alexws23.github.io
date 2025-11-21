@@ -1,11 +1,11 @@
 ---
 title: "Alex Smilor"
-image: imgs/AWS-7548.jpg
+image: imgs/AWS-9894.jpg
 toc: false
 about: 
- template: trestles
- image-shape: round
- image-width: 17em
+ template: jolla
+ image-shape: rectangle
+ image-width: 70em
  links:
    - text: LinkedIN
      icon: linkedin

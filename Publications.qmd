@@ -1,0 +1,8 @@
+---
+title: "Publications"
+format: html
+---
+**TropiRoot 1.0: Database of Tropical Root Characteristics across Environments**
+Cordeiro, Amanda L., Daniela F. Cusack, Nathaly Guerrero-Ramírez, Richard J. Norby, Laura Toro, Michelle Y. Wong, S. Joseph Wright... Alex W. Smilor, et al. 2025. “TropiRoot 1.0: Database of Tropical Root Characteristics across Environments.” Ecology 106(5): e70074. https://doi.org/10.1002/ecy.70074
+
+<a href="media/TropiRoot_Database.pdf" download>Download PDF</a>
