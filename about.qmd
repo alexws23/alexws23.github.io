@@ -1,9 +1,197 @@
 ---
-title: "About"
-lightbox: auto
-echo: false
+format: 
+  html:
+    bootstrap: 5
+    css: styles.css
+toc: false
+lightbox:
+  effect: fade
 ---
+```{=html}
+<style>
+  /* Full-width layout */
+  #myCarousel {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    max-height: 550px;
+    overflow: hidden;
+    position: relative;
+  }
 
-This site was created for my Quantitative Analysis Class, ESS-330, at CSU using Quarto and serves as an introduction to who I am and some of the skills I have acquired through my professional, academic, and personal life.
+  /* Images */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
-![Hiking Vinciguerra Glacier near Ushuaia, Argentina](imgs/vincinguerra.JPG){.lightbox group="my-gallery"  fig-alt="A selfie with a glacier in the background"}
+  /* Fixed caption overlay (same for all slides) */
+  .carousel-caption-fixed {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 90%;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.9);
+    z-index: 15;
+  }
+</style>
+
+<div id="myCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+
+  <!-- FIXED CAPTION (does NOT rotate) -->
+
+  <div class="carousel-caption-fixed">
+    <h1 style="font-size: 3rem;">Alex Smilor</h1>
+    <p style="font-size: 1.3rem;">Conservation, Avian Ecology, and Global Change</p>
+  </div>
+
+  <!-- Indicators -->
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Slides -->
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imgs/AWS-2023.jpg" alt="">
+    </div>
+
+
+<div class="carousel-item">
+  <img src="imgs/AWS-0244-Enhanced-NR.jpg" alt="">
+</div>
+
+<div class="carousel-item">
+  <img src="imgs/AWS-9894.jpg" alt="">
+</div>
+
+
+  </div>
+
+  <!-- Controls -->
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+```
+
+
+::: {.home-section}
+
+:::: {.columns}
+
+::: {.column width="29%"}
+```{=html}
+<!-- Responsive two-column layout -->
+
+  <!-- Left column: photo + name + social icons -->
+
+    <img src="imgs/AWS-7548.jpg" 
+         style="width: 100%; border-radius: 0.5rem; margin-bottom: 1rem;" 
+         alt="Alex Smilor" />
+  <div style="margin-top: 0rem; font-size: 2rem; display: flex; justify-content: center; gap: 1rem;">
+      <p text-align: center; style="font-size: 40px;"> <b>Alex Smilor</b></p>
+  </div>
+
+
+<!-- Social Icons -->
+<div style="margin-top: 0rem; font-size: 2rem; display: flex; justify-content: center; gap: 1rem;">
+  <a href="https://www.linkedin.com/in/alexsmilor" target="_blank">
+    <img src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" alt="LinkedIn" style="width: 32px; height: 32px;">
+  </a>
+    <a href="https://www.inaturalist.org/people/6646139" target="_blank">
+    <img src="imgs/inat.png" alt="iNaturalist" style="width: 32px; height: 32px;">
+  </a>
+   <a href="https://ebird.org/profile/MTgwNTI1Mg/world" target="_blank">
+    <img src="imgs/ebird.png" alt="eBird" style="width: 32px; height: 32px;">
+  </a>
+    <a href="https://github.com/alexws23" target="_blank">
+    <img src="imgs/github.png" alt="GitHub" style="width: 32px; height: 32px;">
+  </a>
+  <a href="mailto::alexws23@verizon.net" target="_blank">
+    <img src="imgs/mail.png" alt="Email" style="width: 32px; height: 32px;">
+  </a>
+    </a>
+</div>
+
+```
+
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="69%"}
+<div class="section-text">
+
+Hi! My name is Alex Smilor. I am an early-career ecologist whose interests center around how the changing climate and anthropogenic influences on the landscape affect avian and forest ecology. I currently work as a research assistant for the <a href="https://ward.nres.illinois.edu/" title="Ward Lab of Ornithology">Ward Lab of Ornithology</a> at the University of Illinois Urbana-Champaign. In this role, I help maintain and upgrade the Illinois MOTUS Network by constructing new, high-gain antennas, repairing existing receivers, and establishing new towers. Additionally, I work with multiple datasets to contribute to ongoing research projects focused on the migratory behavior of two rail species and phenologic plasticity in migratory birds. Lastly, I assist with passerine banding efforts and hand-tracking radio-tagged owls.
+
+Though my current work focuses on bird migration and behavior, I have experience with multiple field research methods and fields. I graduated in May 2025 from Colorado State University with a Bachelor of Science in Ecosystem Science and Sustainability, a degree that focused on nutrient cycles, climate change, and the sociopolitical context of building a more sustainable world. While pursuing my undergraduate degree, I spent two summers working with <a href="https://cfri.colostate.edu/" title="Colorado Forest Restoration Institute">Colorado Forest Restoration Institute</a>. During these two summers, I helped collect data that are being used to understand how birds use fire-affected landscapes two decades after a fire, how subalpine forests in southwestern Colorado are recovering following a chronic spruce beetle outbreak, and how silvicultural practices can help subalpine forests adapt to a changing climate.
+
+Outside of work, I enjoy spending time outdoors birdwatching, hiking, camping, and doing photography. I am an avid user of citizen science platforms like iNaturalist and eBird, with thousands of observations on both. Additionally, I enjoy playing board games and tabletop roleplaying games, along with cooking, running, and swimming.
+
+</div>
+:::
+
+::::
+
+:::
+
+
+::: {.home-section}
+
+:::: {.columns}
+
+::: {.column width="49%"}
+```{=html}
+<a href="CV.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/AWS-2026.jpg" alt="Photography preview">
+    <div class="image-overlay">
+      <p><b>Professional Experience</b></p>
+      <p>Ornithology • Forestry • Field Work</p>
+    </div>
+  </div>
+</a>
+```
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="49%"}
+```{=html}
+<a href="Gallery.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/AWS-4103-Enhanced-NR.jpg" alt="Photography preview">
+    <div class="image-overlay">
+      <p><b>Explore My Photography</b></p>
+      <p>Wildlife • Landscapes • Field Work</p>
+    </div>
+  </div>
+</a>
+```
+:::
+
+::::
+
+:::

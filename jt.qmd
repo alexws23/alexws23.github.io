@@ -1,0 +1,53 @@
+---
+title: "Joshua Tree"
+subtitle: "2025"
+format: 
+  html:
+    bootstrap: 5
+    css: styles.css
+page-layout: full
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
+echo: false
+---
+
+```{r}
+descrip_exif <- function(x){
+  exif <- exifr::read_exif(
+    path = x, 
+    tags = c("Make" ,"Model", "FocalLength", "FNumber", "ExposureTime", 
+             "ISO", "LensModel", 
+             "BatteryLevel", "SelfTimer", "DateTimeOriginal", "OffsetTime")
+  )
+  
+  glue::glue("{exif$Model} Lens: {exif$LensModel} <br>
+             {exif$FocalLength}mm f/{exif$FNumber} 1/{round(1/exif$ExposureTime)} ISO {exif$ISO} <br>
+             {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
+}
+```
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![Mojave Yuccas in the desert at sunrise](imgs/JT/AWS-0419-HDR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0419-HDR-low-online.jpg")`" fig-alt="Mojave Yuccas in the desert at sunrise"}
+
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![Climbing the boulders of Joshua Tree](imgs/JT/AWS-0261-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0261-low-online.jpg")`" fig-alt="Climbing the boulders of Joshua Tree"}
+
+![The sun shining through the rocks](imgs/JT/AWS-0290-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0290-low-online.jpg")`" fig-alt="The sun shining through the rocks"}
+
+![Climbing into the setting sun](imgs/JT/AWS-0316-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0316-low-online.jpg")`" fig-alt="Climbing into the setting sun"}
+
+![Hiking through the desert](imgs/JT/AWS-0233-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0233-low-online.jpg")`" fig-alt="Hiking through the desert"}
+
+![California Thrasher](imgs/JT/AWS-0474-Enhanced-NR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0474-Enhanced-NR-low-online.jpg")`" fig-alt="California Thrasher"}
+
+![A towering monolith at sunset](imgs/JT/AWS-0334-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0334-low-online.jpg")`" fig-alt="A towering monolith at sunset"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![Joshua Trees beneath the night sky](imgs/JT/AWS-0403-Enhanced-NR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/JT/AWS-0403-Enhanced-NR-low-online.jpg")`" fig-alt="Joshua Trees beneath the night sky"}
+:::

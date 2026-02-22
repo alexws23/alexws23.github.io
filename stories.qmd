@@ -1,0 +1,32 @@
+---
+title: "Stories"
+format: 
+  html:
+    bootstrap: 5
+    css: styles.css
+page-layout: full
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
+echo: false
+---
+
+::::: home-section
+:::: columns
+::: {.column width="100%"}
+```{=html}
+<a href="honors-thesis.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/AWS-2636.jpg" alt="Winter, Urban Landscapes">
+    <div class="image-overlay">
+      <p style="font-size: 30px"><b>The Hidden Beauty of Wintry, Urban Landscapes</b></p>
+      <p>2025</p>
+    </div>
+  </div>
+</a>
+```
+:::
+::::
+:::::

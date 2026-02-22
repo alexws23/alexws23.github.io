@@ -1,0 +1,44 @@
+---
+title: "Antarctica"
+subtitle: "2024"
+format: 
+  html:
+    bootstrap: 5
+    css: styles.css
+page-layout: full
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
+echo: false
+---
+
+```{r}
+descrip_exif <- function(x){
+  exif <- exifr::read_exif(
+    path = x, 
+    tags = c("Make" ,"Model", "FocalLength", "FNumber", "ExposureTime", 
+             "ISO", "LensModel", 
+             "BatteryLevel", "SelfTimer", "DateTimeOriginal", "OffsetTime")
+  )
+  
+  glue::glue("{exif$Model} Lens: {exif$LensModel} <br>
+             {exif$FocalLength}mm f/{exif$FNumber} 1/{round(1/exif$ExposureTime)} ISO {exif$ISO} <br>
+             {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
+}
+```
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![A Chinstrap Penguin at Hannah Point](imgs/Antarctica/AWS-4648-Enhanced-NR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/Antarctica/AWS-4648-Enhanced-NR-low-online.jpg")`" fig-alt="A Chinstrap Panguin at Hannah Point"}
+
+![Two Southern Elephant Seals fighting](imgs/Antarctica/AWS-4879-Enhanced-NR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/Antarctica/AWS-4879-Enhanced-NR-low-online.jpg")`" fig-alt="Two Southern Elephant Seals Fighting"}
+
+![A Humpback Whale swims through the Antarctic waters at sunrise](imgs/Antarctica/AWS-0227-Enhanced-NR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/Antarctica/AWS-0227-Enhanced-NR-low-online.jpg")`" fig-alt="A Humpback Whale swims through the Antarctic waters at sunrise"}
+
+![A Snowy Albatross soaring over the Drake Passage](imgs/Antarctica/AWS-3877-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/Antarctica/AWS-3877-low-online.jpg")`" fig-alt="A Snowy Albatross Soaring over the Drake Passage"}
+
+![An all-white Northern Giant-Petrel picking at a penguin corpse](imgs/Antarctica/AWS-4875-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/Antarctica/AWS-4875-low-online.jpg")`" fig-alt="An all-white Northern Giant-Petrel picking at a penguin corpse"}
+
+![A Northern Giant-Petrel with its wings fanned out on the black sand beach of Hannah Point](imgs/Antarctica/AWS-5040-Enhanced-NR-low-online.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/Antarctica/AWS-5040-Enhanced-NR-low-online.jpg")`" fig-alt="A Northern Giant-Petrel with its wings fanned out on the black sand beach of Hannah Point"}
+:::

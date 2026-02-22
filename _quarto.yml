@@ -9,26 +9,27 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
       - CV.qmd
       - Projects.qmd
-      - Gallery.qmd
       - Publications.qmd
+      - Gallery.qmd
       - icon: github
         href: https://github.com/alexws23/alexws23.github.io
         target: _blank
-  page-footer:
-    background: light
-    left: Copyright 2025, Alex Smilor
-    right: This website was built with [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/alexws23/alexws23.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+  #page-footer:
+    #background: light
+    #left: Copyright 2025, Alex Smilor
+    #right: This website was built with [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/alexws23/alexws23.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
     theme: 
       light: lightmode.scss
-      dark: darkmode.scss
+      #dark: darkmode.scss
     toc: true
     page-layout: full
+    
+
 
 editor: visual
 

@@ -3,7 +3,7 @@ title: "Projects"
 format: html
 ---
 ## Current Projects
-
+To be updated soon... there're some exciting projects in the works
 ## Past Projects
 ### Gentoo Penguin Research
 

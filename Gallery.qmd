@@ -1,6 +1,9 @@
 ---
-title: "Gallery"
-format: html
+title: "Photography"
+format: 
+  html:
+    bootstrap: 5
+    css: styles.css
 page-layout: full
 lightbox:
   match: auto
@@ -24,6 +27,47 @@ descrip_exif <- function(x){
              {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
 }
 ```
+## Featured Galleries
+
+::: {.home-section}
+
+:::: {.columns}
+
+::: {.column width="49%"}
+```{=html}
+<a href="jt.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/AWS-0403-Enhanced-NR-low-online.jpg" alt="Joshua Trees">
+    <div class="image-overlay">
+      <p style="font-size: 30px"><b>Joshua Tree</b></p>
+      <p>2025</p>
+    </div>
+  </div>
+</a>
+```
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="49%"}
+```{=html}
+<a href="antarctica.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/AWS-9007-low-online.jpg" alt="Gentoo Penguin">
+    <div class="image-overlay">
+      <p style="font-size: 30px"><b>Antarctica</b></p>
+      <p>2024</p>
+    </div>
+  </div>
+</a>
+```
+:::
+
+::::
+
+:::
+
 ## Argentina
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
 ![A Short-eared Owl I photographed in Argentina](imgs/AWS-4886-Enhanced-NR.jpg){.lightbox group="my-gallery" description="`r descrip_exif("imgs/AWS-4886-Enhanced-NR.jpg")`" fig-alt="A photograph of a Short-eared owl in flight."}

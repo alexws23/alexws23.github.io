@@ -1,90 +1,90 @@
 ---
-title: "Resume"
+title: "CV"
 format: html
 ---
 
 ### Education
 
-+------------------------------------------------------------------+----------------+
-| **Bachelor of Science in Ecosystem Science and Sustainability**\ | May 2025\      |
-| Minor in Spanish\                                                | GPA: 3.99      |
-| Colorado State University, Fort Collins, Colorado                |                |
-+------------------------------------------------------------------+----------------+
++------------------------------------------------------------------+---------------+
+| **Bachelor of Science in Ecosystem Science and Sustainability**\ | May 2025\     |
+| Minor in Spanish\                                                | GPA: 3.99     |
+| Colorado State University, Fort Collins, Colorado                |               |
++------------------------------------------------------------------+---------------+
 
 \
 
 ### Work Experience
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Field and Lab Technician**\                                                                                                                                                                | September 2025 - Present    |
-| Ward Lab of Ornithology; University of Illinois                                                                                                                                              |                             |
-|                                                                                                                                                                                              |                             |
-| -   Mistnet, extract, and band migratory passerine birds.                                                                                                                                    |                             |
-| -   Assist with maintaining and repairing the Illinois MOTUS network, including constructing antennas and sensorgnomes, and repairing MOTUS towers.                                          |                             |
-| -   Clean, manage and analyze MOTUS data to contribute to research publications.                                                                                                             |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Kirtland’s Warbler Radio Telemetry Team Lead**\                                                                                                                                            | May 2025 – August 2025      |
-| Smithsonian Migratory Bird Center                                                                                                                                                            |                             |
-|                                                                                                                                                                                              |                             |
-| -   Plan daily tasks for 1-3 field technicians, manage equipment, and teach field technicians protocols and use of radio telemetry equipment.                                                |                             |
-| -   Monitor males to determine their pairing status by observing breeding behaviors.                                                                                                         |                             |
-| -   Operate and download data from MOTUS towers. Also set up electronics used in the towers.                                                                                                 |                             |
-| -   Use telemetry to track birds to map territories with a Trimble field GPS and record their song rate.                                                                                     |                             |
-| -   Follow safe nest searching protocols to locate nests to assist a nest searching effort.                                                                                                  |                             |
-| -   Help with setting up mist nets, recording banding data, handling and releasing birds safely, and activating Nanotags.                                                                    |                             |
-| -   Check and manage data for multiple projects, serving as the principal data checker.                                                                                                      |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Student Lab Assistant**\                                                                                                                                                                   | August 2024 – May 2025      |
-| Colorado Forest Restoration Institute                                                                                                                                                        |                             |
-|                                                                                                                                                                                              |                             |
-| -   Developed a communications project and database to visually demonstrate how Colorado forests change over time in response to various treatments.                                         |                             |
-| -   Updated CFRI’s website using Wordpress software to improve the front-end user experience.                                                                                                |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Subalpine Forest Monitoring Field Technician**\                                                                                                                                            | June 2024 – August 2024     |
-| Colorado Forest Restoration Institute                                                                                                                                                        |                             |
-|                                                                                                                                                                                              |                             |
-| -   Used stem mapping procedures using a variable radius plot protocol.                                                                                                                      |                             |
-| -   Identified and measured the height and diameter at breast height (DBH) of trees.                                                                                                         |                             |
-| -   Cored and aged trees.                                                                                                                                                                    |                             |
-| -   Conducted simple vegetation sampling in quadrats.                                                                                                                                        |                             |
-| -   Identified common herbaceous and shrubby plant species.                                                                                                                                  |                             |
-| -   Used forestry tools including calipers, densiometers, DBH tapes, and rangefinders.                                                                                                       |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Independent Study Project**\                                                                                                                                                               |                             |
-| School for International Training                                                                                                                                                            |                             |
-|                                                                                                                                                                                              |                             |
-| -   Designed and executed an independent research project examining the effects of climate on the breeding phenology and demography of Gentoo Penguins.                                      |                             |
-| -   Collected phenological and demographic data from camera trap images.                                                                                                                     |                             |
-| -   Conducted a literature review and developed hypotheses.                                                                                                                                  |                             |
-| -   Used R and RStudio to analyze data, develop and compare models, and generate visualizations.                                                                                             |                             |
-| -   Presented the project in a 16-page report written in Spanish and in a Spanish-language presentation.                                                                                     |                             |
-| -   Link to report:[ https://drive.google.com/file/d/1rGPQembxepKrLT7sDl87VDYBCqSeA0ip/view?usp=sharing](https://drive.google.com/file/d/1rGPQembxepKrLT7sDl87VDYBCqSeA0ip/view?usp=sharing) |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Undergrad Research Assistant**\                                                                                                                                                            | August 2023 – December 2023 |
-| Colorado Forest Restoration Institute                                                                                                                                                        |                             |
-|                                                                                                                                                                                              |                             |
-| -   Managed data for a research project, including entering data into Excel and checking data quality.                                                                                       |                             |
-|                                                                                                                                                                                              |                             |
-| -   Entered data, managed data, checked data quality, and communicated about issues.                                                                                                         |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Subalpine Forest Monitoring Field Technician**\                                                                                                                                            | July 2023 – August 2023     |
-| Colorado Forest Restoration Institute                                                                                                                                                        |                             |
-|                                                                                                                                                                                              |                             |
-| -   Assessed tree survivorship and growth to monitor forest recovery from bark beetle outbreaks.                                                                                             |                             |
-| -   Counted and identified seedlings and trees.                                                                                                                                              |                             |
-| -   Sampled coarse fuels load in a plot.                                                                                                                                                     |                             |
-| -   Measured litter and duff depth.                                                                                                                                                          |                             |
-| -   Sampled for snowshoe hare scat as a part of a lynx monitoring effort.                                                                                                                    |                             |
-| -   Used forestry tools including calipers, densiometers, DBH tapes, and clinometers.                                                                                                        |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
-| **Fire Ecology Field Technician**\                                                                                                                                                           | May 2023 – June 2023        |
-| Department of Forest and Rangeland Stewardship at CSU                                                                                                                                        |                             |
-|                                                                                                                                                                                              |                             |
-| -   Conducted avian point count surveys to evaluate avian species richness.                                                                                                                  |                             |
-| -   Assessed forest composition to determine fire’s effect on bird populations.                                                                                                              |                             |
-| -   Identified over 60 species of Rocky Mountain bird species by sight and sound.                                                                                                            |                             |
-| -   Camped for up to 8 days consecutively and hiked up to six miles daily.                                                                                                                   |                             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Field and Lab Technician**\                                                                                                                           | September 2025 - Present    |
+| Ward Lab of Ornithology; University of Illinois                                                                                                         |                             |
+|                                                                                                                                                         |                             |
+| -   Mistnet, extract, and band migratory passerine birds.                                                                                               |                             |
+| -   Assist with maintaining and repairing the Illinois MOTUS network, including constructing antennas and sensorgnomes, and repairing MOTUS towers.     |                             |
+| -   Clean, manage and analyze MOTUS data to contribute to research publications.                                                                        |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Kirtland’s Warbler Radio Telemetry Team Lead**\                                                                                                       | May 2025 – August 2025      |
+| Smithsonian Migratory Bird Center                                                                                                                       |                             |
+|                                                                                                                                                         |                             |
+| -   Plan daily tasks for 1-3 field technicians, manage equipment, and teach field technicians protocols and use of radio telemetry equipment.           |                             |
+| -   Monitor males to determine their pairing status by observing breeding behaviors.                                                                    |                             |
+| -   Operate and download data from MOTUS towers. Also set up electronics used in the towers.                                                            |                             |
+| -   Use telemetry to track birds to map territories with a Trimble field GPS and record their song rate.                                                |                             |
+| -   Follow safe nest searching protocols to locate nests to assist a nest searching effort.                                                             |                             |
+| -   Help with setting up mist nets, recording banding data, handling and releasing birds safely, and activating Nanotags.                               |                             |
+| -   Check and manage data for multiple projects, serving as the principal data checker.                                                                 |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Student Lab Assistant**\                                                                                                                              | August 2024 – May 2025      |
+| Colorado Forest Restoration Institute                                                                                                                   |                             |
+|                                                                                                                                                         |                             |
+| -   Developed a communications project and database to visually demonstrate how Colorado forests change over time in response to various treatments.    |                             |
+| -   Updated CFRI’s website using Wordpress software to improve the front-end user experience.                                                           |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Subalpine Forest Monitoring Field Technician**\                                                                                                       | June 2024 – August 2024     |
+| Colorado Forest Restoration Institute                                                                                                                   |                             |
+|                                                                                                                                                         |                             |
+| -   Used stem mapping procedures using a variable radius plot protocol.                                                                                 |                             |
+| -   Identified and measured the height and diameter at breast height (DBH) of trees.                                                                    |                             |
+| -   Cored and aged trees.                                                                                                                               |                             |
+| -   Conducted simple vegetation sampling in quadrats.                                                                                                   |                             |
+| -   Identified common herbaceous and shrubby plant species.                                                                                             |                             |
+| -   Used forestry tools including calipers, densiometers, DBH tapes, and rangefinders.                                                                  |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Independent Study Project**\                                                                                                                          |                             |
+| School for International Training                                                                                                                       |                             |
+|                                                                                                                                                         |                             |
+| -   Designed and executed an independent research project examining the effects of climate on the breeding phenology and demography of Gentoo Penguins. |                             |
+| -   Collected phenological and demographic data from camera trap images.                                                                                |                             |
+| -   Conducted a literature review and developed hypotheses.                                                                                             |                             |
+| -   Used R and RStudio to analyze data, develop and compare models, and generate visualizations.                                                        |                             |
+| -   Presented the project in a 16-page report written in Spanish and in a Spanish-language presentation.                                                |                             |
+| -   Link to report:<https://drive.google.com/file/d/1rGPQembxepKrLT7sDl87VDYBCqSeA0ip/view?usp=sharing>                                                 |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Undergrad Research Assistant**\                                                                                                                       | August 2023 – December 2023 |
+| Colorado Forest Restoration Institute                                                                                                                   |                             |
+|                                                                                                                                                         |                             |
+| -   Managed data for a research project, including entering data into Excel and checking data quality.                                                  |                             |
+|                                                                                                                                                         |                             |
+| -   Entered data, managed data, checked data quality, and communicated about issues.                                                                    |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Subalpine Forest Monitoring Field Technician**\                                                                                                       | July 2023 – August 2023     |
+| Colorado Forest Restoration Institute                                                                                                                   |                             |
+|                                                                                                                                                         |                             |
+| -   Assessed tree survivorship and growth to monitor forest recovery from bark beetle outbreaks.                                                        |                             |
+| -   Counted and identified seedlings and trees.                                                                                                         |                             |
+| -   Sampled coarse fuels load in a plot.                                                                                                                |                             |
+| -   Measured litter and duff depth.                                                                                                                     |                             |
+| -   Sampled for snowshoe hare scat as a part of a lynx monitoring effort.                                                                               |                             |
+| -   Used forestry tools including calipers, densiometers, DBH tapes, and clinometers.                                                                   |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| **Fire Ecology Field Technician**\                                                                                                                      | May 2023 – June 2023        |
+| Department of Forest and Rangeland Stewardship at CSU                                                                                                   |                             |
+|                                                                                                                                                         |                             |
+| -   Conducted avian point count surveys to evaluate avian species richness.                                                                             |                             |
+| -   Assessed forest composition to determine fire’s effect on bird populations.                                                                         |                             |
+| -   Identified over 60 species of Rocky Mountain bird species by sight and sound.                                                                       |                             |
+| -   Camped for up to 8 days consecutively and hiked up to six miles daily.                                                                              |                             |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
 
 ### Volunteer Experience
 
@@ -104,16 +104,19 @@ format: html
 
 ### Skills
 
-|  |
-|----|
-| **Language:** English (native speaker), Spanish (working proficiency) |
-| **Computer Software:** RStudio, ArcGIS Pro, QGIS, Adobe Lightroom and Photoshop |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Language:** English (native speaker), Spanish (working proficiency)                                                                                                                                                                                                                                                                                                                |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Computer Software:** RStudio, ArcGIS Pro, QGIS, Adobe Lightroom and Photoshop                                                                                                                                                                                                                                                                                                      |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Fieldwork:** VHF radio telemetry, point count bird surveys, bird band resighting, target mist netting, some bird banding, tree coring, forest inventory sampling, fuel load sampling, simple quadrat vegetation surveys, scat surveys, spotting scope, hiking rugged uphill terrain carrying 50+ lbs, driving 4WD vehicle on backcountry roads, power and hand tool use, soldering |
-| **Personal:** birding, digital photography, camping, casual plant identification, creative writing |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Personal:** birding, digital photography, camping, casual plant identification, creative writing                                                                                                                                                                                                                                                                                   |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Publications
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| **TropiRoot 1.0: Database of Tropical Root Characteristics across Environments**\                                                                                                                                                                                                                                                                     | 2025      |
-| Cordeiro, Amanda L., Daniela F. Cusack, Nathaly Guerrero-Ramírez, Richard J. Norby, Laura Toro, Michelle Y. Wong, S. Joseph Wright... **Alex W. Smilor**, et al. 2025. “TropiRoot 1.0: Database of Tropical Root Characteristics across Environments.” Ecology 106(5): e70074.[ https://doi.org/10.1002/ecy.70074](https://doi.org/10.1002/ecy.70074) |           |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| **TropiRoot 1.0: Database of Tropical Root Characteristics across Environments**\                                                                                                                                                                                                                                 | 2025    |
+| Cordeiro, Amanda L., Daniela F. Cusack, Nathaly Guerrero-Ramírez, Richard J. Norby, Laura Toro, Michelle Y. Wong, S. Joseph Wright... **Alex W. Smilor**, et al. 2025. “TropiRoot 1.0: Database of Tropical Root Characteristics across Environments.” Ecology 106(5): e70074.<https://doi.org/10.1002/ecy.70074> |         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
