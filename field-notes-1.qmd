@@ -1,0 +1,112 @@
+---
+format: 
+  html:
+    bootstrap: 5
+    css: styles.css
+page-layout: full
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
+echo: false
+---
+
+```{r}
+descrip_exif <- function(x){
+  exif <- exifr::read_exif(
+    path = x, 
+    tags = c("Make" ,"Model", "FocalLength", "FNumber", "ExposureTime", 
+             "ISO", "LensModel", 
+             "BatteryLevel", "SelfTimer", "DateTimeOriginal", "WorldTimeLocation")
+  )
+  
+  glue::glue("{lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal}'))}")
+}
+```
+
+# Field Notes
+## The Whip-poor-wills of Picayune Strand
+
+**Disclaimer:** All activities were conducted with appropriate federal and state permits. Birds were handled ethically and with care to avoid undue harm and stress to the individuals. Please do not try anything described in this narrative without proper training and permits.
+
+Over the past week, I have been traveling throughout Florida with my labmate Dave on a singular mission — find the elusive tagged Eastern Whip-poor-wills of Florida and recover those tags. Over the past two years, Dave has been deployed archival GPS tags on about a dozen of these birds. These tags work by recording a GPS point at set intervals and can log around 40 points total. This data will help us learn where this disjunct wintering population goes to breed and also provide some information on their migration route and breeding territory size.
+\
+
+The challenge, of course, is that we need to recover these tags.
+\
+
+This may sound impossible. Honestly, that's what I thought at first too. How on earth are we supposed to find the one tagged whip-poor-will within a sea of thousands across a state as large as Florida? Well, here's the magical part. These birds are so good at navigation that they return to almost the exact same wintering location year after year. I'm talking the like the same 100-square-foot patch of forest that looks like every other patch of forest around it. Crazy, right?
+\
+
+Thus, our strategy: we go to each location where Dave originally tagged each bird and give try to recapture them. This strategy is why, on a warm Saturday evening, Dave and I found ourselves trundling along the cratered roads of Picayune Strand State Forest in southern Florida. 
+\
+
+::: {fig-align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));grid-gap: 1em;"}
+![The forests of Picayune Strand](imgs/field-notes-1/IMG_4319.jpg){.lightbox group="my-gallery1" description="`r descrip_exif("imgs/field-notes-1/IMG_4319.jpg")`" fig-alt="The forests of Picayune Strand"}
+:::
+
+After a long drive through the forest, we finally arrived at the target bird's tagging site, an innocuous, isolated locale marked only by an intersection in two rough, dirt roads. Sunset was about an hour off and we needed to get everything set up before then. The first thing we did was set up one of our insect traps at this spot. We are using these insect bucket traps — literally a 3-gallon bucket with a UV light attached to it — to estimate insect biomass in the area and get a sense of what the birds might be eating. Setting these up is pretty easy and basically involves just programming a timer to turn on the lights for an hour and a half starting 15 minutes after sunset.
+\
+
+::: {fig-align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));grid-gap: 1em;"}
+![A bucket trap. Photo Credit: Dave Edlund](imgs/field-notes-1/PHOTO-2026-02-22-18-25-22.jpg){.lightbox group="my-gallery1" description="`r descrip_exif("imgs/field-notes-1/PHOTO-2026-02-22-18-25-22.jpg")`" fig-alt="A bucket trap in a forest" width=40%}
+:::
+
+Once the bucket trap was set up, we put up a mist net nearby, set out a speaker, and put up a foam decoy. For the time being, we didn't do anything with the mistnet; we wouldn't start trying to attract the whip-poor-will until after sunset. Instead, we drove down the road a bit to put up two more bucket traps. Later, we would do point counts at each of these traps to see if any birds were nearby. 
+\
+
+After all of that was said and done, we still had a few minutes before sunset. With our extra time we drove down to a nearby channel to look for birds. We were pleasantly surprised to find half a dozen Green Herons, a Tricolored Heron, and a few Great Egrets milling about the channel. We also spotted a few American Alligators in the water and an osprey perched on a branch near its nest calling loudly. 
+\
+
+::: {fig-align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));grid-gap: 1em;"}
+![The swampy channel with all of the herons and egrets](imgs/field-notes-1/IMG_4321.jpg){.lightbox group="my-gallery1" description="`r descrip_exif("imgs/field-notes-1/IMG_4321.jpg")`" fig-alt="The swampy channel with all of the herons and egrets"}
+:::
+
+With the sun sinking below the horizon, we bade the channel goodbye and headed back to our mistnet, which we opened up. Then, we started our 5-minute playback survey. We did this both to survey for all of the birds in the area and to hopefully draw the tagged bird into the net. The survey went swimmingly. After almost a week of surveys without a single peep, four whip-poor-wills immediately started chirping in response to our playback. Maybe one of them was our tagged bird!
+\
+
+::: {fig-align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));grid-gap: 1em;"}
+![Dave crouches on the ground during our point count](imgs/field-notes-1/IMG_4324.jpg){.lightbox group="my-gallery1" description="`r descrip_exif("imgs/field-notes-1/IMG_4324.jpg")`" fig-alt="Dave crouches on the ground during our point count"}
+:::
+
+After the excitement of the point count we checked the net filled with hope: nothing. No bird had fallen for our trap. Not disheartened, we walked further down the track toward where we had heard one of the other birds calling. Suddenly, there! Eyes shining in the dark, reflecting the light of our headlamps. A whip-poor-will perched on a branch. Could it be? We dared not ask the question.
+\
+
+Immediately, we set about setting up a second net closer to where we'd seen the bird. Then, it was just a waiting game. We let 15 minutes pass before checking the nets again. We walked down the dirt track through the darkness, hoping beyond hope that our nets had snagged the target bird. We never made it to the nets.
+\
+
+There was a whip-poor-will sitting on the road. We both knew what we had to try. While mistnets are preferred for capturing whip-poor-wills, it is also possible to grab them from the ground if they are on the road by sneaking up to them very carefully (There's more to this method, but I'm not going to elaborate here. If you are a researcher with questions, feel free to reach out). Holding our breaths, we did our best to sneak up to the bird. 5 feet away. 2 feet. 1 foot. Got it! Dave managed to grab the bird right off the road.
+\
+
+Holding it carefully we walked back to the car and took a look at its short legs, looking for the glint of a metal band. And there it was. Somehow, we bested the odds and managed to recapture one of the tagged birds! We processed the bird quickly but carefully, taking morphometric measurements to gauge its fitness and removing its tag. With the measurements complete, we gave the bird a few minutes to rest in a dark box before releasing it safely back into its forested home.
+\
+
+::: {fig-align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));grid-gap: 1em;"}
+![The tagged whip-poor-will](imgs/field-notes-1/IMG_4336.jpg){.lightbox group="my-gallery1" description="`r descrip_exif("imgs/field-notes-1/IMG_4336.jpg")`" fig-alt="The tagged whip-poor-will" width=40%}
+:::
+
+With the day growing late, we completed our last two point counts without detecting any more whip-poor-wills and picked up our insect traps. Then we headed back to our home base, eager to get the data off of the tag. As soon as we made it back, we downloaded the data and finally learned where this Florida Eastern Whip-poor-will bred last summer: northeastern Alabama. This little guy is just a short-distance migrant. The next question: are all of the Florida Eastern Whip-poor-wills short-distance migrants like this one? Hopefully we can get recover a few more tags and find out the answer.
+
+::: {fig-align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));grid-gap: 1em;"}
+![The tag](imgs/field-notes-1/IMG_4352.jpg){.lightbox group="my-gallery1" description="`r descrip_exif("imgs/field-notes-1/IMG_4352.jpg")`" fig-alt="The tag" width=40%}
+:::
+
+## Read More
+::::: home-section
+:::: columns
+::: {.column width="50%"}
+```{=html}
+<a href="honors-thesis.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/AWS-2636.jpg" alt="Winter, Urban Landscapes">
+    <div class="image-overlay">
+      <p style="font-size: 30px"><b>The Hidden Beauty of Wintry, Urban Landscapes</b></p>
+      <p>2025</p>
+    </div>
+  </div>
+</a>
+```
+:::
+::::
+:::::

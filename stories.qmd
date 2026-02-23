@@ -17,6 +17,24 @@ echo: false
 :::: columns
 ::: {.column width="100%"}
 ```{=html}
+<a href="field-notes-1.qmd">
+  <div class="image-wrapper">
+    <img src="imgs/IMG_4324.jpg" alt="Field Notes 1">
+    <div class="image-overlay">
+      <p style="font-size: 30px"><b>Field Notes — Picayune Strand</b></p>
+      <p>Feb. 2026</p>
+    </div>
+  </div>
+</a>
+```
+:::
+::::
+:::::
+
+::::: home-section
+:::: columns
+::: {.column width="50%"}
+```{=html}
 <a href="honors-thesis.qmd">
   <div class="image-wrapper">
     <img src="imgs/AWS-2636.jpg" alt="Winter, Urban Landscapes">
