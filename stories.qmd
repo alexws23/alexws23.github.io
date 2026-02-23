@@ -19,7 +19,7 @@ echo: false
 ```{=html}
 <a href="field-notes-1.qmd">
   <div class="image-wrapper">
-    <img src="imgs/IMG_4324.jpg" alt="Field Notes 1">
+    <img src="imgs/IMG_4324.JPG" alt="Field Notes 1">
     <div class="image-overlay">
       <p style="font-size: 30px"><b>Field Notes — Picayune Strand</b></p>
       <p>Feb. 2026</p>
